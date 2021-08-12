@@ -3,8 +3,8 @@ import About from '../About';
 
 test('should render about component', ()=>{
     render(<About />);
-    const todoElement = screen.getByTestId('about');
-    expect(todoElement).toBeInTheDocument();
-    expect(todoElement).toHaveTextContent('jajco');
-    expect(todoElement).toHaveAttribute('data-testid');
+    const Element = screen.getByTestId('about');
+    expect(Element).toBeInTheDocument();
+    expect(Element).toHaveTextContent('jajco');
+    expect(Element).toHaveAttribute('data-testid');
 })
