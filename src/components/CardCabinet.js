@@ -30,8 +30,11 @@ const CardCabinet = () => {
     return (
         <div className="Cabinet" data-testid="CardCabinet">
             <Card id={1} title={'Card-1'} imgUrl={imglnk} titleVisible={true}/>
-            <Card id={2} title={'Card-2'} imgUrl={imglnk} titleVisible={false}/>
+            <Card id={2} title={'Card-2'} imgUrl={imglnk} titleVisible={false} imgBorderStyle={{borderRadius: '15px'}}/>
             <Card id={3} title={'Card-3'} imgUrl={imglnk} titleVisible={true}/>
+            <Card id={4} title={'Card-4'} imgUrl={imglnk} titleVisible={true}/>
+            <Card id={5} title={'Card-5'} imgUrl={imglnk} titleVisible={true}/>
+            <Card id={6} title={'Card-6'} imgUrl={imglnk} titleVisible={true}/>
         </div>
     )
 }
