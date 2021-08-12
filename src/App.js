@@ -7,13 +7,13 @@ import Location from "./components/Location";
 import Banner from "./components/Banner";
 import bannerImg from './img/5.jpg';
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
-
+import CardCabinet from "./components/CardCabinet";
 
 function App() {
   return (
-    <Router>
+     <Router>
       <div className="App">
-        <Banner url={bannerImg}/>
+        {/* <Banner url={bannerImg}/>
         <Navbar />
         <div className="Container">
           <Switch>
@@ -21,10 +21,10 @@ function App() {
             <Route path="/location" component={Location} />
             <Route path="/" component={About} />
           </Switch>
-        </div>
-        
+        </div> */}
+      <CardCabinet/>
       </div>
-    </Router>
+      </Router>
   );
 }
 

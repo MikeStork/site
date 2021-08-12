@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = ({url}) => {
     return (
-        <div data-testid="Banner">
+        <div className="Banner" data-testid="Banner">
             <img data-testid="BannerImg" src={url} alt="Kuchnia"/>
         </div>
     )
