@@ -1,10 +1,12 @@
 .Card{
-    max-height: 260px;
+    height: 260px;
     width: 200px;
     display: flex;
     flex-direction: column;
     background-color: #2c2c2cc0;
-    border: 1px solid white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1), 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    transition: transform ease-in-out 200ms;
 }
 .Card p{
     color: white;
@@ -14,8 +16,18 @@
     max-width: 100%;
     
 }
+.Card:hover{
+    transform: scale(1.05);
+    transition: transform ease-in-out 200ms;
+}
 .Card img{
     position: relative;
-    flex: 6;
+    flex: 10;
     object-fit: cover;
+}
+.Cabinet{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

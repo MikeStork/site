@@ -29,8 +29,9 @@ Card.defaultProps = {
 const CardCabinet = () => {
     return (
         <div className="Cabinet">
-            <Card id={1} title={'Card-1'} imgUrl={imglnk} titleVisible={true} 
-            />
+            <Card id={1} title={'Card-1'} imgUrl={imglnk} titleVisible={true}/>
+            <Card id={2} title={'Card-2'} imgUrl={imglnk} titleVisible={false}/>
+            <Card id={3} title={'Card-3'} imgUrl={imglnk} titleVisible={true}/>
         </div>
     )
 }

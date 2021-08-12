@@ -13,7 +13,7 @@ function App() {
   return (
      <Router>
       <div className="App">
-        {/* <Banner url={bannerImg}/>
+        <Banner url={bannerImg}/>
         <Navbar />
         <div className="Container">
           <Switch>
@@ -21,7 +21,7 @@ function App() {
             <Route path="/location" component={Location} />
             <Route path="/" component={About} />
           </Switch>
-        </div> */}
+        </div>
       <CardCabinet/>
       </div>
       </Router>
