@@ -8,6 +8,8 @@ import Banner from "./components/Banner";
 import bannerImg from './img/5.jpg';
 import { Switch } from "react-router-dom/cjs/react-router-dom.min";
 import CardCabinet from "./components/CardCabinet";
+import '@fontsource/roboto';
+import Product from "./components/Product";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           </Switch>
         </div>
       <CardCabinet/>
+      <Product/>
       </div>
       </Router>
   );
